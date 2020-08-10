@@ -1,0 +1,116 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#ffffff;
+    padding:50px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+input {
+    padding: 5px 10px;
+
+}
+
+.header {
+    padding: 20px;
+    border-bottom: 5px solid rgba(0, 0, 0, 0.2);
+}
+
+.border {
+    border-bottom: 5px dashed black;
+    margin: 20px 0px;
+}
+
+.content {
+    margin-top: 20px;
+    box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.content p{
+    margin-bottom: 10px;
+}
+
+#image1{
+    height: 200px;
+    width: 200px;
+}
+
+.form-heading {
+    margin: 10px 0px;
+}
+
+.name input {
+    padding: 5px 10px;
+    margin-left: 0 8px;
+}
+
+.address {
+    margin: 20px 0;
+}
+
+.nameBox {
+    display: inline-block;
+    color: gray;
+}
+
+.city-state {
+    display: flex;
+    color: gray;
+}
+
+.state {
+    margin-left: 10px;
+}
+
+.postal-country {
+    display: flex;
+    margin-top: 20px;
+}
+
+.country  {
+    margin-left: 20px;
+}
+
+.country select {
+    padding: 5px;
+}
+
+span {
+    color: gray;
+}
+
+.phone-date {
+    display: flex;
+    margin-top: 20px;
+}
+
+.date {
+    margin-left: 50px;
+}
+
+.company-details {
+    display: flex;
+    margin-top: 20px;
+}
+
+.box {
+    margin-left: 10px;
+}
+
+button {
+    margin-top: 40px;
+    padding: 8px 50px;
+    outline: none;
+    border-color: gray;
+    background: linear-gradient(to bottom, #CFE4F7, #053d6e );
+    color: #ffff;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
